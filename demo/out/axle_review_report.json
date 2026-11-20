@@ -1,0 +1,1253 @@
+{
+  "reconstruction": {
+    "textbook_3_5": {
+      "ticket_id": "WB-35",
+      "gross": 8,
+      "identity": [
+        "T-35",
+        "R-A"
+      ],
+      "layout": {
+        "tractor": "T-35",
+        "trailer": "R-A",
+        "positions": [
+          0,
+          2
+        ]
+      },
+      "platform_length": 2,
+      "axle_loads": [
+        3,
+        5
+      ],
+      "valid": true,
+      "issues": [],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 3,
+          "computed": 3
+        },
+        {
+          "position": 2,
+          "entering": [
+            1
+          ],
+          "exiting": [
+            0
+          ],
+          "on_platform": [
+            1
+          ],
+          "recorded": 5,
+          "computed": 5
+        },
+        {
+          "position": 4,
+          "entering": [],
+          "exiting": [
+            1
+          ],
+          "on_platform": [],
+          "recorded": 0,
+          "computed": 0
+        }
+      ]
+    },
+    "same_gross_4_4": {
+      "ticket_id": "WB-44",
+      "gross": 8,
+      "identity": [
+        "T-44",
+        "R-B"
+      ],
+      "layout": {
+        "tractor": "T-44",
+        "trailer": "R-B",
+        "positions": [
+          0,
+          2
+        ]
+      },
+      "platform_length": 2,
+      "axle_loads": [
+        4,
+        4
+      ],
+      "valid": true,
+      "issues": [],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 4,
+          "computed": 4
+        },
+        {
+          "position": 2,
+          "entering": [
+            1
+          ],
+          "exiting": [
+            0
+          ],
+          "on_platform": [
+            1
+          ],
+          "recorded": 4,
+          "computed": 4
+        },
+        {
+          "position": 4,
+          "entering": [],
+          "exiting": [
+            1
+          ],
+          "on_platform": [],
+          "recorded": 0,
+          "computed": 0
+        }
+      ]
+    },
+    "both_axles_on_platform": {
+      "readings": [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "result": {
+        "ticket_id": "WB-35B",
+        "gross": 8,
+        "identity": [
+          "T-35",
+          "R-A"
+        ],
+        "layout": {
+          "tractor": "T-35",
+          "trailer": "R-A",
+          "positions": [
+            0,
+            2
+          ]
+        },
+        "platform_length": 4,
+        "axle_loads": [
+          3,
+          5
+        ],
+        "valid": true,
+        "issues": [],
+        "events": [
+          {
+            "position": 0,
+            "entering": [
+              0
+            ],
+            "exiting": [],
+            "on_platform": [
+              0
+            ],
+            "recorded": 3,
+            "computed": 3
+          },
+          {
+            "position": 2,
+            "entering": [
+              1
+            ],
+            "exiting": [],
+            "on_platform": [
+              0,
+              1
+            ],
+            "recorded": 8,
+            "computed": 8
+          },
+          {
+            "position": 4,
+            "entering": [],
+            "exiting": [
+              0
+            ],
+            "on_platform": [
+              1
+            ],
+            "recorded": 5,
+            "computed": 5
+          },
+          {
+            "position": 6,
+            "entering": [],
+            "exiting": [
+              1
+            ],
+            "on_platform": [],
+            "recorded": 0,
+            "computed": 0
+          }
+        ]
+      }
+    },
+    "three_axle_same_gross_8": {
+      "ticket_id": "WB-99",
+      "gross": 8,
+      "identity": [
+        "T-99",
+        "R-C"
+      ],
+      "layout": {
+        "tractor": "T-99",
+        "trailer": "R-C",
+        "positions": [
+          0,
+          3,
+          5
+        ]
+      },
+      "platform_length": 3,
+      "axle_loads": [
+        2,
+        3,
+        3
+      ],
+      "valid": true,
+      "issues": [],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 2,
+          "computed": 2
+        },
+        {
+          "position": 3,
+          "entering": [
+            1
+          ],
+          "exiting": [
+            0
+          ],
+          "on_platform": [
+            1
+          ],
+          "recorded": 3,
+          "computed": 3
+        },
+        {
+          "position": 5,
+          "entering": [
+            2
+          ],
+          "exiting": [],
+          "on_platform": [
+            1,
+            2
+          ],
+          "recorded": 6,
+          "computed": 6
+        },
+        {
+          "position": 6,
+          "entering": [],
+          "exiting": [
+            1
+          ],
+          "on_platform": [
+            2
+          ],
+          "recorded": 3,
+          "computed": 3
+        },
+        {
+          "position": 8,
+          "entering": [],
+          "exiting": [
+            2
+          ],
+          "on_platform": [],
+          "recorded": 0,
+          "computed": 0
+        }
+      ]
+    }
+  },
+  "bridge_review": {
+    "triangle_3_5": {
+      "segment_id": 99,
+      "peak": 5,
+      "witness_x": 4,
+      "limit": 4,
+      "feasible": false,
+      "excess": 1,
+      "contributions": [
+        {
+          "axle_index": 0,
+          "axle_position": 0,
+          "load": 3,
+          "influence": 0,
+          "contribution": 0
+        },
+        {
+          "axle_index": 1,
+          "axle_position": 2,
+          "load": 5,
+          "influence": 1,
+          "contribution": 5
+        }
+      ]
+    },
+    "triangle_4_4": {
+      "segment_id": 99,
+      "peak": 4,
+      "witness_x": 2,
+      "limit": 4,
+      "feasible": true,
+      "excess": 0,
+      "contributions": [
+        {
+          "axle_index": 0,
+          "axle_position": 0,
+          "load": 4,
+          "influence": 1,
+          "contribution": 4
+        },
+        {
+          "axle_index": 1,
+          "axle_position": 2,
+          "load": 4,
+          "influence": 0,
+          "contribution": 0
+        }
+      ]
+    },
+    "plateau_joint_contribution": {
+      "segment_id": 98,
+      "peak": 8,
+      "witness_x": 4,
+      "limit": 6,
+      "feasible": false,
+      "excess": 2,
+      "contributions": [
+        {
+          "axle_index": 0,
+          "axle_position": 0,
+          "load": 3,
+          "influence": 1,
+          "contribution": 3
+        },
+        {
+          "axle_index": 1,
+          "axle_position": 2,
+          "load": 5,
+          "influence": 1,
+          "contribution": 5
+        }
+      ]
+    }
+  },
+  "routing": {
+    "limit4_3_5": {
+      "status": "FEASIBLE",
+      "source": "S",
+      "target": "E",
+      "time": 7,
+      "segment_path": [
+        20
+      ],
+      "node_path": [
+        "S",
+        "E"
+      ],
+      "bridge_reviews": [],
+      "reachable_nodes": [
+        "E",
+        "S"
+      ],
+      "reachable_edges": [
+        [
+          10,
+          "S",
+          "E"
+        ],
+        [
+          20,
+          "S",
+          "E"
+        ]
+      ],
+      "blocking": []
+    },
+    "limit5_3_5": {
+      "status": "FEASIBLE",
+      "source": "S",
+      "target": "E",
+      "time": 2,
+      "segment_path": [
+        10
+      ],
+      "node_path": [
+        "S",
+        "E"
+      ],
+      "bridge_reviews": [
+        {
+          "segment_id": 10,
+          "peak": 5,
+          "witness_x": 4,
+          "limit": 5,
+          "feasible": true,
+          "excess": 0,
+          "contributions": [
+            {
+              "axle_index": 0,
+              "axle_position": 0,
+              "load": 3,
+              "influence": 0,
+              "contribution": 0
+            },
+            {
+              "axle_index": 1,
+              "axle_position": 2,
+              "load": 5,
+              "influence": 1,
+              "contribution": 5
+            }
+          ]
+        }
+      ],
+      "reachable_nodes": [
+        "E",
+        "S"
+      ],
+      "reachable_edges": [
+        [
+          10,
+          "S",
+          "E"
+        ],
+        [
+          20,
+          "S",
+          "E"
+        ]
+      ],
+      "blocking": []
+    },
+    "limit4_4_4": {
+      "status": "FEASIBLE",
+      "source": "S",
+      "target": "E",
+      "time": 2,
+      "segment_path": [
+        10
+      ],
+      "node_path": [
+        "S",
+        "E"
+      ],
+      "bridge_reviews": [
+        {
+          "segment_id": 10,
+          "peak": 4,
+          "witness_x": 2,
+          "limit": 4,
+          "feasible": true,
+          "excess": 0,
+          "contributions": [
+            {
+              "axle_index": 0,
+              "axle_position": 0,
+              "load": 4,
+              "influence": 1,
+              "contribution": 4
+            },
+            {
+              "axle_index": 1,
+              "axle_position": 2,
+              "load": 4,
+              "influence": 0,
+              "contribution": 0
+            }
+          ]
+        }
+      ],
+      "reachable_nodes": [
+        "E",
+        "S"
+      ],
+      "reachable_edges": [
+        [
+          10,
+          "S",
+          "E"
+        ],
+        [
+          20,
+          "S",
+          "E"
+        ]
+      ],
+      "blocking": []
+    },
+    "plateau_limit6": {
+      "status": "FEASIBLE",
+      "source": "S",
+      "target": "E",
+      "time": 9,
+      "segment_path": [
+        40
+      ],
+      "node_path": [
+        "S",
+        "E"
+      ],
+      "bridge_reviews": [],
+      "reachable_nodes": [
+        "E",
+        "S"
+      ],
+      "reachable_edges": [
+        [
+          30,
+          "S",
+          "E"
+        ],
+        [
+          40,
+          "S",
+          "E"
+        ]
+      ],
+      "blocking": []
+    },
+    "blocked": {
+      "status": "BLOCKED",
+      "source": "S",
+      "target": "X",
+      "time": null,
+      "segment_path": null,
+      "node_path": null,
+      "bridge_reviews": [
+        {
+          "segment_id": 2,
+          "peak": 5,
+          "witness_x": 4,
+          "limit": 1,
+          "feasible": false,
+          "excess": 4,
+          "contributions": [
+            {
+              "axle_index": 0,
+              "axle_position": 0,
+              "load": 3,
+              "influence": 0,
+              "contribution": 0
+            },
+            {
+              "axle_index": 1,
+              "axle_position": 2,
+              "load": 5,
+              "influence": 1,
+              "contribution": 5
+            }
+          ]
+        }
+      ],
+      "reachable_nodes": [
+        "M",
+        "S",
+        "X"
+      ],
+      "reachable_edges": [
+        [
+          1,
+          "S",
+          "M"
+        ],
+        [
+          2,
+          "M",
+          "X"
+        ]
+      ],
+      "blocking": [
+        {
+          "segment_id": 2,
+          "source": "M",
+          "target": "X",
+          "review": {
+            "segment_id": 2,
+            "peak": 5,
+            "witness_x": 4,
+            "limit": 1,
+            "feasible": false,
+            "excess": 4,
+            "contributions": [
+              {
+                "axle_index": 0,
+                "axle_position": 0,
+                "load": 3,
+                "influence": 0,
+                "contribution": 0
+              },
+              {
+                "axle_index": 1,
+                "axle_position": 2,
+                "load": 5,
+                "influence": 1,
+                "contribution": 5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "unreachable": {
+      "status": "UNREACHABLE",
+      "source": "S",
+      "target": "R",
+      "time": null,
+      "segment_path": null,
+      "node_path": null,
+      "bridge_reviews": [
+        {
+          "segment_id": 2,
+          "peak": 5,
+          "witness_x": 4,
+          "limit": 1,
+          "feasible": false,
+          "excess": 4,
+          "contributions": [
+            {
+              "axle_index": 0,
+              "axle_position": 0,
+              "load": 3,
+              "influence": 0,
+              "contribution": 0
+            },
+            {
+              "axle_index": 1,
+              "axle_position": 2,
+              "load": 5,
+              "influence": 1,
+              "contribution": 5
+            }
+          ]
+        }
+      ],
+      "reachable_nodes": [
+        "M",
+        "S",
+        "X"
+      ],
+      "reachable_edges": [
+        [
+          1,
+          "S",
+          "M"
+        ],
+        [
+          2,
+          "M",
+          "X"
+        ]
+      ],
+      "blocking": [
+        {
+          "segment_id": 2,
+          "source": "M",
+          "target": "X",
+          "review": {
+            "segment_id": 2,
+            "peak": 5,
+            "witness_x": 4,
+            "limit": 1,
+            "feasible": false,
+            "excess": 4,
+            "contributions": [
+              {
+                "axle_index": 0,
+                "axle_position": 0,
+                "load": 3,
+                "influence": 0,
+                "contribution": 0
+              },
+              {
+                "axle_index": 1,
+                "axle_position": 2,
+                "load": 5,
+                "influence": 1,
+                "contribution": 5
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "invalid_records": {
+    "missing_point": {
+      "ticket_id": "WB-BAD",
+      "gross": 8,
+      "identity": [
+        "T-35",
+        "R-A"
+      ],
+      "layout": {
+        "tractor": "T-35",
+        "trailer": "R-A",
+        "positions": [
+          0,
+          2
+        ]
+      },
+      "platform_length": 2,
+      "axle_loads": null,
+      "valid": false,
+      "issues": [
+        {
+          "code": "MISSING_POINT",
+          "location": "x=2",
+          "detail": "expected entry/exit position has no reading"
+        }
+      ],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 3,
+          "computed": null
+        },
+        {
+          "position": 2,
+          "entering": [
+            1
+          ],
+          "exiting": [
+            0
+          ],
+          "on_platform": [
+            1
+          ],
+          "recorded": null,
+          "computed": null
+        },
+        {
+          "position": 4,
+          "entering": [],
+          "exiting": [
+            1
+          ],
+          "on_platform": [],
+          "recorded": 0,
+          "computed": null
+        }
+      ]
+    },
+    "contradiction": {
+      "ticket_id": "WB-BAD",
+      "gross": 8,
+      "identity": [
+        "T-35",
+        "R-A"
+      ],
+      "layout": {
+        "tractor": "T-35",
+        "trailer": "R-A",
+        "positions": [
+          0,
+          2
+        ]
+      },
+      "platform_length": 4,
+      "axle_loads": null,
+      "valid": false,
+      "issues": [
+        {
+          "code": "INCONSISTENT_READINGS",
+          "location": "x=0, x=2, x=4",
+          "detail": "no axle-load vector satisfies all recorded platform totals"
+        }
+      ],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 3,
+          "computed": null
+        },
+        {
+          "position": 2,
+          "entering": [
+            1
+          ],
+          "exiting": [],
+          "on_platform": [
+            0,
+            1
+          ],
+          "recorded": 9,
+          "computed": null
+        },
+        {
+          "position": 4,
+          "entering": [],
+          "exiting": [
+            0
+          ],
+          "on_platform": [
+            1
+          ],
+          "recorded": 5,
+          "computed": null
+        },
+        {
+          "position": 6,
+          "entering": [],
+          "exiting": [
+            1
+          ],
+          "on_platform": [],
+          "recorded": 0,
+          "computed": null
+        }
+      ]
+    },
+    "gross_mismatch": {
+      "ticket_id": "WB-BAD",
+      "gross": 8,
+      "identity": [
+        "T-35",
+        "R-A"
+      ],
+      "layout": {
+        "tractor": "T-35",
+        "trailer": "R-A",
+        "positions": [
+          0,
+          2
+        ]
+      },
+      "platform_length": 2,
+      "axle_loads": [
+        4,
+        5
+      ],
+      "valid": false,
+      "issues": [
+        {
+          "code": "GROSS_MISMATCH",
+          "location": "-",
+          "detail": "sum of axle loads 9 != ticket gross 8"
+        }
+      ],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 4,
+          "computed": 4
+        },
+        {
+          "position": 2,
+          "entering": [
+            1
+          ],
+          "exiting": [
+            0
+          ],
+          "on_platform": [
+            1
+          ],
+          "recorded": 5,
+          "computed": 5
+        },
+        {
+          "position": 4,
+          "entering": [],
+          "exiting": [
+            1
+          ],
+          "on_platform": [],
+          "recorded": 0,
+          "computed": 0
+        }
+      ]
+    },
+    "end_not_zero": {
+      "ticket_id": "WB-BAD",
+      "gross": 8,
+      "identity": [
+        "T-35",
+        "R-A"
+      ],
+      "layout": {
+        "tractor": "T-35",
+        "trailer": "R-A",
+        "positions": [
+          0,
+          2
+        ]
+      },
+      "platform_length": 2,
+      "axle_loads": null,
+      "valid": false,
+      "issues": [
+        {
+          "code": "END_NOT_ZERO",
+          "location": "x=4",
+          "detail": "all axles have exited but platform reads 2, expected 0"
+        },
+        {
+          "code": "INCONSISTENT_READINGS",
+          "location": "x=4",
+          "detail": "no axle-load vector satisfies all recorded platform totals"
+        }
+      ],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 3,
+          "computed": null
+        },
+        {
+          "position": 2,
+          "entering": [
+            1
+          ],
+          "exiting": [
+            0
+          ],
+          "on_platform": [
+            1
+          ],
+          "recorded": 5,
+          "computed": null
+        },
+        {
+          "position": 4,
+          "entering": [],
+          "exiting": [
+            1
+          ],
+          "on_platform": [],
+          "recorded": 2,
+          "computed": null
+        }
+      ]
+    },
+    "history_layout_missing": {
+      "ticket_id": "WB-44",
+      "gross": 8,
+      "identity": [
+        "T-44",
+        "R-B"
+      ],
+      "layout": null,
+      "platform_length": 2,
+      "axle_loads": null,
+      "valid": false,
+      "issues": [
+        {
+          "code": "HISTORY_LAYOUT_MISSING",
+          "location": "-",
+          "detail": "no axle layout registered for historical group ('T-44', 'R-B')"
+        }
+      ],
+      "events": []
+    },
+    "history_group_mismatch": {
+      "ticket_id": "WB-99",
+      "gross": 8,
+      "identity": [
+        "T-99",
+        "R-C"
+      ],
+      "layout": {
+        "tractor": "T-99",
+        "trailer": "R-C",
+        "positions": [
+          0,
+          3,
+          5
+        ]
+      },
+      "platform_length": 2,
+      "axle_loads": null,
+      "valid": false,
+      "issues": [
+        {
+          "code": "MISSING_POINT",
+          "location": "x=3",
+          "detail": "expected entry/exit position has no reading"
+        },
+        {
+          "code": "MISSING_POINT",
+          "location": "x=5",
+          "detail": "expected entry/exit position has no reading"
+        },
+        {
+          "code": "MISSING_POINT",
+          "location": "x=7",
+          "detail": "expected entry/exit position has no reading"
+        },
+        {
+          "code": "UNEXPECTED_POINT",
+          "location": "x=4",
+          "detail": "no axle enters or exits the platform here"
+        }
+      ],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 3,
+          "computed": null
+        },
+        {
+          "position": 2,
+          "entering": [],
+          "exiting": [
+            0
+          ],
+          "on_platform": [],
+          "recorded": 5,
+          "computed": null
+        },
+        {
+          "position": 3,
+          "entering": [
+            1
+          ],
+          "exiting": [],
+          "on_platform": [
+            1
+          ],
+          "recorded": null,
+          "computed": null
+        },
+        {
+          "position": 5,
+          "entering": [
+            2
+          ],
+          "exiting": [
+            1
+          ],
+          "on_platform": [
+            2
+          ],
+          "recorded": null,
+          "computed": null
+        },
+        {
+          "position": 7,
+          "entering": [],
+          "exiting": [
+            2
+          ],
+          "on_platform": [],
+          "recorded": null,
+          "computed": null
+        }
+      ]
+    },
+    "same_gross_other_ticket_note": "WB-35 / WB-44 / WB-99 毛重同为 8，但复核只接受记录自身绑票还原出的 车组轴距与轴重：(3,5)@(0,2)、(4,4)@(0,2)、(2,3,3)@(0,3,5) 互不可代替。"
+  },
+  "snapshot_path": {
+    "snapshot": {
+      "Kind": "composition_snapshot",
+      "Version": 1,
+      "product": {
+        "action_seq": 1,
+        "attach_seq": 1,
+        "live": true,
+        "masses": [
+          {
+            "entity_id": "tractor:T-35",
+            "hi": 5,
+            "kind": "tractor",
+            "lo": 1
+          },
+          {
+            "entity_id": "trailer:R-A",
+            "hi": 5,
+            "kind": "trailer",
+            "lo": 1
+          }
+        ],
+        "mode": "EMPTY",
+        "predecessor": null,
+        "product_id": "P000001-T-35-A1",
+        "relation_src": "attach",
+        "tractor_id": "tractor:T-35",
+        "trailer_id": "trailer:R-A"
+      },
+      "seq": 1
+    },
+    "reconstruction": {
+      "ticket_id": "WB-35",
+      "gross": 8,
+      "identity": [
+        "T-35",
+        "R-A"
+      ],
+      "layout": {
+        "tractor": "T-35",
+        "trailer": "R-A",
+        "positions": [
+          0,
+          2
+        ]
+      },
+      "platform_length": 2,
+      "axle_loads": [
+        3,
+        5
+      ],
+      "valid": true,
+      "issues": [],
+      "events": [
+        {
+          "position": 0,
+          "entering": [
+            0
+          ],
+          "exiting": [],
+          "on_platform": [
+            0
+          ],
+          "recorded": 3,
+          "computed": 3
+        },
+        {
+          "position": 2,
+          "entering": [
+            1
+          ],
+          "exiting": [
+            0
+          ],
+          "on_platform": [
+            1
+          ],
+          "recorded": 5,
+          "computed": 5
+        },
+        {
+          "position": 4,
+          "entering": [],
+          "exiting": [
+            1
+          ],
+          "on_platform": [],
+          "recorded": 0,
+          "computed": 0
+        }
+      ]
+    },
+    "route_limit4": {
+      "status": "FEASIBLE",
+      "source": "S",
+      "target": "E",
+      "time": 7,
+      "segment_path": [
+        20
+      ],
+      "node_path": [
+        "S",
+        "E"
+      ],
+      "bridge_reviews": [],
+      "reachable_nodes": [
+        "E",
+        "S"
+      ],
+      "reachable_edges": [
+        [
+          10,
+          "S",
+          "E"
+        ],
+        [
+          20,
+          "S",
+          "E"
+        ]
+      ],
+      "blocking": []
+    }
+  },
+  "checks": {
+    "warehouse_reconcile": [],
+    "catalog_verify": [],
+    "statuses": {
+      "blocked": "BLOCKED",
+      "unreachable": "UNREACHABLE",
+      "feasible_example": "FEASIBLE"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"Kind":"route_archive","Version":1,"segments":[{"bridge":{"influence_line":{"points":[[0,0],[2,1],[4,0]]},"limit":4},"segment_id":10,"source":"S","target":"E","travel_time":2},{"bridge":null,"segment_id":20,"source":"S","target":"E","travel_time":7}]}
